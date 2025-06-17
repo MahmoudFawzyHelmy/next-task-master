@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true} className="bg-light min-vh-100 d-flex flex-column">
         <nav className="navbar navbar-expand-lg navbar-dark bg-gradient shadow-sm" style={{ background: 'linear-gradient(135deg, #2c3e50, #3498db)' }}>
           <div className="container">
-            <a className="navbar-brand d-flex align-items-center gap-2 fw-bold text-blue" href="/">
+            <a className="navbar-brand d-flex align-items-center gap-2 fw-bold text-black" href="/">
               <FaUsersCog size={28} /> <span className="fs-4">Smart Users Hub</span>
             </a>
           </div>
